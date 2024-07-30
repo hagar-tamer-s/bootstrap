@@ -1,16 +1,18 @@
 body {
-    font-family: "oswald" , sans-serif;
+    font-family: "Ropoto Slap" , sans-serif;
+    background-color: rgb(200, 98, 209);
     margin: 0;
     padding: 0;
 }
 
 .container {
     width: 100%;
-    max-width: 800px;
+    max-width: 550px;
 }
 
 .main-data-sec {
     margin-top: 200px;
+    background-color: rgb(230, 207, 226);
 }
 
 .main-data-sec .main-img{
@@ -23,4 +25,26 @@ body {
 
 .head-sec img{
     max-height: 30px;
+}
+
+.contact-links a {
+    justify-content: center;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact-links img {
+    padding: 10px;
+    max-height: 70px;
+    background-color:rgb(200, 98, 209);
+    margin-right: 6px; margin-left: 7px;
+    border-radius: 20%;
+}
+
+.contact-form input[type=submit]:hover {
+    background-color: rgb(200, 98, 209);
+    color: white;
+    border: 3px solid rgb(200, 98, 209);
+    cursor: pointer;
 }
