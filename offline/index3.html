@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <h1>Hi iam <span id= "head" >Hagar</span></h1>
+    <button id="min" onclick="m()">&lt</button>
+    <button id="plus" onclick="p()">&gt</button>
+    <button onclick="window.print()">print</button>    
+  </body>
+  <script>
+    let i=0;
+    let arr = [ 'Hagar','Ali' , 'Omar' , 'Mai' ,'Aliaa'];
+
+    function m()
+    {
+    
+    document.getElementById("head").innerHTML= arr[Math.abs(--i)%arr.length];
+    } 
+    function p()
+    {
+    
+    document.getElementById("head").innerHTML= arr[Math.abs(++i)%arr.length];
+    }
+  </script>
+</html>
