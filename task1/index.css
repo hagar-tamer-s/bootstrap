@@ -1,5 +1,6 @@
 body {
     background-color: #f6f6f6;
+    font-family: "Tajwal", sans-serif;
 }
 
 header {
@@ -82,7 +83,7 @@ article {
 }
 
 .font-1 button img {
-    margin-right: 40px;
+    margin-right: 30px;
     width: 25px;
 }
 
@@ -202,6 +203,53 @@ textarea {
 
 .contact-button:hover {
     background-color: #023f3f;
+}
+
+.advert {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px 20px;
+    margin:20px 5px;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    background: #020609;
+    background-image: radial-gradient(ellipse at 50% 40%, #3d434c, transparent 60%);
+    color: white;
+}
+
+.advert button {
+    display: block;
+    margin-left: 40px;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    max-width: 300px;
+    border-radius: 40px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #025b5b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.advert h1 {
+    margin-right: 70px;
+    font-size: 50px;
+    font-weight:lighter;
+}
+
+.advert button:hover {
+    background-color: #023f3f;
+}
+
+.advert button img{
+    margin-right: 20px;
+    width: 25px;
 }
 
 .footer-container {
