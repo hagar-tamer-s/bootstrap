@@ -48,3 +48,8 @@ body {
     border: 3px solid rgb(200, 98, 209);
     cursor: pointer;
 }
+
+.main-img{
+    width: 230px;
+    height: 230px;
+}
